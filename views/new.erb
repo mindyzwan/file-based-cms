@@ -1,0 +1,9 @@
+<% if session[:message] %>
+    <p class="alert"><%= session.delete(:message) %></p>
+<% end %>
+
+<h>Add a new document:</h>
+<form action="/new" method="post">
+  <input name="title" />
+  <button type="submit">Create<br>
+</form>

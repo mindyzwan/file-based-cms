@@ -1,0 +1,13 @@
+body {
+  padding:1em;
+  font-family:sans-serif;
+}
+
+.alert {
+  padding:10px;
+  background-color:yellow;
+}
+
+.inline {
+  display: inline;
+}
