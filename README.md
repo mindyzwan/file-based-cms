@@ -8,3 +8,6 @@ Clone this repo to your desktop and run `bundle install` to install all the depe
 Once the dependencies are installed, you can run `ruby app.rb` to start the application. You will then be able to access it at localhost:8080
 
 Sign in with "admin" and "hallo"
+
+# Testing
+Run `bundle exec ruby tests/app_test.rb`
